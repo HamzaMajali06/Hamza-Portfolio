@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.classList.add('js');</script>
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#EEEDE7">
+<title>Hamza Almajali — Architecture Portfolio</title>
+<meta name="description" content="Architecture portfolio of Hamza Almajali, first-year architecture student at the German Jordanian University, Amman, Jordan. Studio projects, technical drawing, and computational design.">
+<meta property="og:title" content="Hamza Almajali — Architecture Portfolio">
+<meta property="og:description" content="Studio projects, technical drawing, and computational design work by an architecture student at the German Jordanian University.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23EEEDE7'/%3E%3Ccircle cx='50' cy='50' r='28' fill='none' stroke='%232C4870' stroke-width='4'/%3E%3Cpath d='M50 12V88M12 50H88' stroke='%232C4870' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Newsreader:ital,wght@0,400;0,500;1,400&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<div class="cursor" data-cursor aria-hidden="true">
+  <span class="cursor-line cursor-line--h"></span>
+  <span class="cursor-line cursor-line--v"></span>
+  <span class="cursor-corner tl"></span>
+  <span class="cursor-corner tr"></span>
+  <span class="cursor-corner bl"></span>
+  <span class="cursor-corner br"></span>
+  <span class="cursor-label" data-cursor-label></span>
+</div>
+
+<header class="site-header" data-header>
+  <div class="header-inner">
+    <a href="#intro" class="logo">Hamza<span>Almajali</span></a>
+
+    <nav class="nav" id="mobile-nav" data-nav aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#studio">Studio&nbsp;Work</a></li>
+        <li><a href="#technical">Technical</a></li>
+        <li><a href="#computational">Computational</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" type="button" data-nav-toggle aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+    <section id="intro" class="hero" aria-label="Introduction">
+    <div class="hero-parallax" data-parallax="0.12" aria-hidden="true">
+      <svg viewBox="0 0 600 600" class="hero-line hero-line--a"><polyline points="20,580 20,120 300,20 580,120 580,580" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+      <svg viewBox="0 0 600 600" class="hero-line hero-line--b"><rect x="60" y="60" width="480" height="480" fill="none" stroke="currentColor" stroke-width="1"/><line x1="60" y1="60" x2="540" y2="540" stroke="currentColor" stroke-width="1"/></svg>
+    </div>
+
+    <div class="container hero-inner">
+      <p class="hero-eyebrow reveal" data-reveal-group>Portfolio / Architecture</p>
+      <h1 class="hero-title reveal" data-reveal-group>Hamza<br>Almajali</h1>
+      <p class="hero-subtitle reveal" data-reveal-group>Architecture student, German&nbsp;Jordanian&nbsp;University — Amman, Jordan</p>
+      <p class="hero-tags reveal" data-reveal-group>Studio design · Model-making · AutoCAD &amp; Revit</p>
+    </div>
+
+    <div class="hero-coordinates reveal" data-reveal-group>31.95° N, 35.93° E</div>
+
+    <div class="hero-scroll-cue reveal" data-reveal-group aria-hidden="true">
+      <span class="hero-scroll-line"></span>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+    <section id="about" class="section about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-head reveal" data-reveal-group>
+        <p class="section-eyebrow">Sheet A-01 — About</p>
+        <h2 class="section-heading" id="about-heading">About</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal" data-reveal-group>
+          <p>I'm a first-year architecture student at the German Jordanian University with a strong interest in design and the built environment. I have a solid grounding in Revit and advanced AutoCAD skills, with hands-on experience in architectural drafting and technical drawing.</p>
+          <p>I bring a strong work ethic, attention to detail, and the ability to work well as part of a team — and I'm always looking to learn, gain practical experience, and keep developing my design and technical skills.</p>
+
+          <ul class="tag-row">
+            <li class="tag">Revit</li>
+            <li class="tag">AutoCAD</li>
+            <li class="tag">Architectural Drafting</li>
+            <li class="tag">Technical Drawing</li>
+            <li class="tag">Model-Making</li>
+          </ul>
+
+          <div class="about-beyond">
+            <h3>Beyond the studio</h3>
+            <p>I've volunteered organising and distributing clothing to individuals and families in need, and I'm part of the Sustainability Club at GJU.</p>
+          </div>
+        </div>
+
+        <div class="about-portrait reveal" data-reveal-group>
+          <div class="cad-frame" data-cursor-text="VIEW">
+            <img src="images/1-removebg-preview.png" alt="Portrait of Hamza Almajali" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+            <span class="cad-frame-missing">images/1-removebg-preview.png</span>
+            <span class="cad-frame-overlay" aria-hidden="true"></span>
+            <span class="cad-frame-corner tl"></span>
+            <span class="cad-frame-corner tr"></span>
+            <span class="cad-frame-corner bl"></span>
+            <span class="cad-frame-corner br"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="studio" class="section studio" aria-labelledby="studio-heading">
+    <div class="container">
+      <div class="section-head reveal" data-reveal-group>
+        <p class="section-eyebrow">Sheet A-02 — Studio Projects</p>
+        <h2 class="section-heading" id="studio-heading">Studio Work</h2>
+        <p class="section-intro">Three studio projects, from a first study model through to a complete studio design.</p>
+      </div>
+
+            <article class="project">
+        <div class="project-head reveal" data-reveal-group>
+          <span class="project-label">01</span>
+          <div>
+            <h3>First Project</h3>
+            <p class="project-meta">Mixed-media study model</p>
+          </div>
+        </div>
+        <p class="project-body reveal" data-reveal-group>My first architectural model project, translating a reference image into a physical three-dimensional form. The exercise centred on form, proportion, and spatial relationship, working through different materials and construction techniques — and it's where I picked up my basic model-making skills.</p>
+
+        <div class="gallery gallery--pair" data-reveal-group>
+          <figure class="gallery-item reveal">
+            <div class="cad-frame" data-cursor-text="VIEW">
+              <img src="images/2-removebg-preview.png" alt="First Project — exterior view of the physical study model" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+              <span class="cad-frame-missing">images/2-removebg-preview.png</span>
+              <span class="cad-frame-overlay" aria-hidden="true"></span>
+              <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+            </div>
+            <figcaption><span class="figcaption-index">Fig. 01</span><span class="figcaption-text">Exterior view</span></figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <div class="cad-frame" data-cursor-text="VIEW">
+              <img src="images/3-removebg-preview.png" alt="First Project — interior view of the physical study model" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+              <span class="cad-frame-missing">images/3-removebg-preview.png</span>
+              <span class="cad-frame-overlay" aria-hidden="true"></span>
+              <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+            </div>
+            <figcaption><span class="figcaption-index">Fig. 02</span><span class="figcaption-text">Interior view</span></figcaption>
+          </figure>
+        </div>
+      </article>
+
+            <article class="project">
+        <div class="project-head reveal" data-reveal-group>
+          <span class="project-label">02</span>
+          <div>
+            <h3>Battle of Grids</h3>
+            <p class="project-meta">Geometric pattern study</p>
+          </div>
+        </div>
+        <p class="project-body reveal" data-reveal-group>My second project, carrying a set of geometric patterns from flat line studies through to three-dimensional relief forms. It's where I developed my creativity and model-making skills, and built a stronger grasp of basic design principles.</p>
+
+        <div class="gallery gallery--pair" data-reveal-group>
+          <figure class="gallery-item reveal">
+            <div class="cad-frame" data-cursor-text="VIEW">
+              <img src="images/4-removebg-preview.png" alt="Battle of Grids — geometric line and colour pattern studies" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+              <span class="cad-frame-missing">images/4-removebg-preview.png</span>
+              <span class="cad-frame-overlay" aria-hidden="true"></span>
+              <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+            </div>
+            <figcaption><span class="figcaption-index">Fig. 01</span><span class="figcaption-text">Pattern &amp; colour studies</span></figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <div class="cad-frame" data-cursor-text="VIEW">
+              <img src="images/5-removebg-preview.png" alt="Battle of Grids — three-dimensional relief models developed from the pattern studies" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+              <span class="cad-frame-missing">images/5-removebg-preview.png</span>
+              <span class="cad-frame-overlay" aria-hidden="true"></span>
+              <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+            </div>
+            <figcaption><span class="figcaption-index">Fig. 02</span><span class="figcaption-text">3D relief models</span></figcaption>
+          </figure>
+        </div>
+      </article>
+
+            <article class="project project--featured">
+        <div class="project-head reveal" data-reveal-group>
+          <span class="project-label">03</span>
+          <div>
+            <h3>The Linking Studio</h3>
+            <p class="project-meta">Studio design — drawing set &amp; model</p>
+          </div>
+        </div>
+        <p class="project-body reveal" data-reveal-group>A design project built around the idea of connection and flow. I explored how bridges and pathways can link different spaces within a studio, creating a smoother movement experience for its users while strengthening the relationship between the building's functions.</p>
+
+        <div class="gallery gallery--set" data-reveal-group>
+          <figure class="gallery-item gallery-item--tall reveal">
+            <div class="cad-frame" data-cursor-text="VIEW">
+              <img src="images/6.jpg" alt="The Linking Studio — drawing sheet with perspective, ground floor and loft plans, sections A-A to D-D, and elevation" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+              <span class="cad-frame-missing">images/6.jpg</span>
+              <span class="cad-frame-overlay" aria-hidden="true"></span>
+              <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+            </div>
+            <figcaption><span class="figcaption-index">Fig. 01</span><span class="figcaption-text">Drawing sheet — plans, sections &amp; elevation</span></figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <div class="cad-frame" data-cursor-text="VIEW">
+              <img src="images/7-removebg-preview.png" alt="The Linking Studio — physical model, interior view showing the linking bridge" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+              <span class="cad-frame-missing">images/7-removebg-preview.png</span>
+              <span class="cad-frame-overlay" aria-hidden="true"></span>
+              <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+            </div>
+            <figcaption><span class="figcaption-index">Fig. 02</span><span class="figcaption-text">Model — interior</span></figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <div class="cad-frame" data-cursor-text="VIEW">
+              <img src="images/8-removebg-preview.png" alt="The Linking Studio — physical model, exterior view of the glazed facade" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+              <span class="cad-frame-missing">images/8-removebg-preview.png</span>
+              <span class="cad-frame-overlay" aria-hidden="true"></span>
+              <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+            </div>
+            <figcaption><span class="figcaption-index">Fig. 03</span><span class="figcaption-text">Model — exterior</span></figcaption>
+          </figure>
+        </div>
+      </article>
+    </div>
+  </section>
+
+    <section id="process" class="section process" aria-labelledby="process-heading">
+    <div class="container process-inner">
+      <div class="section-head reveal" data-reveal-group>
+        <p class="section-eyebrow">Sheet A-03 — Process</p>
+        <h2 class="section-heading" id="process-heading">Creative Process</h2>
+      </div>
+
+      <blockquote class="process-quote reveal" data-reveal-group>Creativity is a balance of art, logic, and play — the emotional freedom of abstract colour meeting the careful planning of an architectural sketch, with a little collage thrown in to bring it all together.</blockquote>
+
+      <div class="gallery gallery--process" data-reveal-group>
+        <figure class="gallery-item reveal">
+          <div class="cad-frame" data-cursor-text="VIEW">
+            <img src="images/9-removebg-preview.png" alt="Colour and form study — abstract geometric composition" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+            <span class="cad-frame-missing">images/9-removebg-preview.png</span>
+            <span class="cad-frame-overlay" aria-hidden="true"></span>
+            <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+          </div>
+          <figcaption><span class="figcaption-index">Fig. 01</span><span class="figcaption-text">Colour &amp; form study</span></figcaption>
+        </figure>
+        <figure class="gallery-item reveal">
+          <div class="cad-frame" data-cursor-text="VIEW">
+            <img src="images/10-removebg-preview.png" alt="Stair design and ergonomics study, hand drawn" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+            <span class="cad-frame-missing">images/10-removebg-preview.png</span>
+            <span class="cad-frame-overlay" aria-hidden="true"></span>
+            <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+          </div>
+          <figcaption><span class="figcaption-index">Fig. 02</span><span class="figcaption-text">Stair design study</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+    <section id="technical" class="section technical" aria-labelledby="technical-heading">
+    <div class="container">
+      <div class="section-head reveal" data-reveal-group>
+        <p class="section-eyebrow">Sheet A-04 — Technical Practice</p>
+        <h2 class="section-heading" id="technical-heading">AutoCAD &amp; Revit</h2>
+        <p class="section-intro">Three further studies in AutoCAD and Revit, developing architectural drawings, 3D models, and building designs — strengthening my drafting, visualisation, and digital modelling skills along the way.</p>
+      </div>
+
+      <div class="tech-grid" data-reveal-group>
+        <article class="tech-card reveal">
+          <div class="cad-frame" data-cursor-text="VIEW">
+            <img src="images/11.jpg" alt="Project 01 — AutoCAD drawing sheet with plans, elevation and a detail drawing" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+            <span class="cad-frame-missing">images/11.jpg</span>
+            <span class="cad-frame-overlay" aria-hidden="true"></span>
+            <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+          </div>
+          <div class="tech-card-body">
+            <span class="tech-card-label">Project 01</span>
+            <h3>2D Drafting</h3>
+            <p class="tech-card-meta">Plans · Elevation · Detail</p>
+          </div>
+        </article>
+
+        <article class="tech-card reveal">
+          <div class="cad-frame" data-cursor-text="VIEW">
+            <img src="images/12.jpg" alt="Project 02 — AutoCAD 3D isometric wireframe model of a building envelope" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+            <span class="cad-frame-missing">images/12.jpg</span>
+            <span class="cad-frame-overlay" aria-hidden="true"></span>
+            <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+          </div>
+          <div class="tech-card-body">
+            <span class="tech-card-label">Project 02</span>
+            <h3>3D Isometric Model</h3>
+            <p class="tech-card-meta">Plan - Sec . Revit 2d</p>
+          </div>
+        </article>
+
+        <article class="tech-card reveal">
+          <div class="cad-frame" data-cursor-text="VIEW">
+            <img src="images/13.jpg" alt="Project 03 — Revit building massing and materials model" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+            <span class="cad-frame-missing">images/13.jpg</span>
+            <span class="cad-frame-overlay" aria-hidden="true"></span>
+            <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+          </div>
+          <div class="tech-card-body">
+            <span class="tech-card-label">Project 03</span>
+            <h3>Massing &amp; Materials Study</h3>
+            <p class="tech-card-meta">Revit model</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+    <section id="computational" class="section computational" aria-labelledby="computational-heading">
+    <div class="container">
+      <div class="section-head reveal" data-reveal-group>
+        <p class="section-eyebrow">Sheet A-05 — Computational Design</p>
+        <h2 class="section-heading" id="computational-heading">Computational Design</h2>
+        <p class="section-intro">An emerging part of my practice. As I continue my studies, I'm expanding into Rhino, Grasshopper, and Python to bring parametric and computational thinking into my design work — this section will grow as that work takes shape.</p>
+      </div>
+
+      <div class="tech-grid" data-reveal-group>
+        <article class="tech-card reveal">
+          <div class="cad-frame" data-cursor-text="VIEW">
+            <img src="images/14.jpg" alt="Grasshopper study" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+            <span class="cad-frame-missing">images/14.jpg</span>
+            <span class="cad-frame-overlay" aria-hidden="true"></span>
+            <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+          </div>
+          <div class="tech-card-body">
+            <span class="tech-card-label">Computational 01</span>
+            <h3>Grasshopper Study</h3>
+            <p class="tech-card-meta">Grasshopper Definition</p>
+          </div>
+        </article>
+
+        <article class="tech-card reveal">
+          <div class="cad-frame" data-cursor-text="VIEW">
+            <img src="images/15.jpg" alt="Parametric model" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+            <span class="cad-frame-missing">images/15.jpg</span>
+            <span class="cad-frame-overlay" aria-hidden="true"></span>
+            <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+          </div>
+          <div class="tech-card-body">
+            <span class="tech-card-label">Computational 02</span>
+            <h3>Parametric Model</h3>
+            <p class="tech-card-meta">Rhino + Python</p>
+          </div>
+        </article>
+
+        <article class="tech-card reveal">
+          <div class="cad-frame" data-cursor-text="VIEW">
+            <img src="images/16.jpg" alt="Script breakdown" loading="lazy" onerror="this.closest('.cad-frame').classList.add('is-missing'); this.onerror=null;">
+            <span class="cad-frame-missing">images/16.jpg</span>
+            <span class="cad-frame-overlay" aria-hidden="true"></span>
+            <span class="cad-frame-corner tl"></span><span class="cad-frame-corner tr"></span><span class="cad-frame-corner bl"></span><span class="cad-frame-corner br"></span>
+          </div>
+          <div class="tech-card-body">
+            <span class="tech-card-label">Computational 03</span>
+            <h3>Script Breakdown</h3>
+            <p class="tech-card-meta">Python Script</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-head reveal" data-reveal-group>
+        <p class="section-eyebrow">Sheet A-06 — Contact</p>
+        <h2 class="section-heading" id="contact-heading">Let's Connect</h2>
+        <p class="section-intro">Thank you for taking the time to look through my work — I'm looking forward to the next project, and to continuing to grow as an architect.</p>
+      </div>
+
+      <ul class="contact-list reveal" data-reveal-group>
+        <li class="contact-item">
+          <span class="contact-label">Phone</span>
+          <a class="contact-value" href="tel:+962782804717">+962 78 280 4717</a>
+        </li>
+        <li class="contact-item">
+          <span class="contact-label">Email</span>
+          <a class="contact-value" href="mailto:h.almajali3@gju.edu.jo">h.almajali3@gju.edu.jo</a>
+        </li>
+        <li class="contact-item">
+          <span class="contact-label">Instagram</span>
+          <a class="contact-value" href="https://www.instagram.com/archbyhamza/" target="_blank" rel="noopener">@archbyhamza</a>
+        </li>
+        <li class="contact-item">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Amman, Jordan</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span data-year>2026</span> Hamza Almajali</p>
+    <a href="#intro" class="footer-back-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
